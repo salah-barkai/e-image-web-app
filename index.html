@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenaire-formulaire" class="contenaire-formulaire">
+       <form id="formulaire" class="formulaire">
+        <h1>Se connecter</h1>
+        <input type="text" placeholder="Pseudo" id="Pseudo" class="Pseudo">
+        <input type="password" placeholder="Mot de passe" id="password" class="password">
+        <button id="btn_connection" type="submit" class="btn_connection">Connexion</button>
+        <button id="btn_inscription" class="btn_inscription">Inscription</button>
+       </form>
+    </div>
+
+    <div id="inscription" class="inscription">
+        <form id="form_inscription" class="form_inscription">
+            <h1>S'inscrire</h1>
+            <input type="text"  id="nom" placeholder="Nom" class="nom">
+            <input type="text"  id="prenom" placeholder="Prenom" class="prenom">
+            <input type="password"  id="password_inscription" placeholder="Mot de passe" class="password_inscription">
+            <input type="password"  id="confirmation_inscription" placeholder="Confirmation mot de passe" class="confirmation_inscription">
+            <button id="inscrire" class="inscrire">S'inscrire</button>
+        </form>
+    </div>
+
+    <div id="dashbord" class="dashbord">
+        <div id="menu" class="menu">
+            <ul>
+                <li><ion-icon name="home-outline"></ion-icon>
+                    <button id="btn_dash" class="btn_dash">Dashbord</button>
+                </li>
+                <li><ion-icon name="people-outline"></ion-icon>
+                    <button id="Administration" class="Administration">Administration</button>
+                </li>
+                <li><ion-icon name="notifications-outline"></ion-icon>
+                    <button id="information" class="information">information</button>
+                </li>
+                <li><ion-icon name="send-outline"></ion-icon>
+                    <button id="contacter" class="contacter">Envoyer un message</button>
+                </li>
+                <li><ion-icon name="calendar-outline"></ion-icon>
+                    <button id="emploi" class="emploi">Emploi du temps</button>
+                </li>
+                <li><ion-icon name="alert-circle-outline"></ion-icon>
+                    <button id="Notes" class="notes">Notes des étudiants</button>
+                </li>
+            </ul>
+        </div>
+
+        <div id="main" class="main">
+            <h1>Dashbord</h1>
+            <div class="emploi">
+                <ion-icon name="calendar-outline"></ion-icon>
+                <Button class="emploi_text">Emplois du temps</Button>
+            </div>
+            <div class="notes">
+                <ion-icon name="alert-circle-outline"></ion-icon>
+                <Button class="etudiant_text">Notes des étudiants</Button>
+            </div>
+            <div class="message">
+                <ion-icon name="send-outline"></ion-icon>
+                <Button class="message_text">Envoyer un message</Button>
+            </div>
+
+            <div class="notebien">
+                <p class="note_bien">Nb: La partie de l'Administration est sécurisée et réservée uniquement à l'Administration..!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="emploi_dashbord">
+        <h1>Emplois du temps des étudiants</h1>
+        <div class="fc1">
+            <button id="btn_fc1">Emplois du temps <span>FC1</span></button>
+        </div>
+        <div class="fc2">
+            <button id="btn_fc2">Emplois du temps <span>FC2</span></button>
+        </div>
+        <div class="LP">
+            <button id="btn_lp">Emplois du temps <span>Lp</span></button>
+        </div>
+        <div class="SRI1">
+            <button id="btn_sri1">Emplois du temps <span>SRI1</span></button>
+        </div>
+        <div class="SRI2">
+            <button id="btn_sri2">Emplois du temps <span>SRI2</span></button>
+        </div><br>
+        <div class="notebien">
+            <p class="note_bien">Nb: La partie de l'Administration est sécurisée et réservée uniquement à l'Administration..!</p>
+        </div>
+    </div>
+
+    <div class="note_dashbord">
+        <h1>Notes des étudiants</h1>
+        <div class="fc1_note">
+            <button id="btn_notefc1">Notes du <span>FC1</span></button>
+        </div>
+        <div class="fc2_note">
+            <button id="btn_notefc2">Notes du <span>FC2</span></button>
+        </div>
+        <div class="LP_note">
+            <button id="btn_notelp">Notes du <span>Lp</span></button>
+        </div>
+        <div class="SRI1_note">
+            <button id="btn_notesri1">Notes du <span>SRI1</span></button>
+        </div>
+        <div class="SRI2_note">
+            <button id="btn_notesri2">Notes du <span>SRI2</span></button>
+        </div><br>
+        <div class="notebien">
+            <p class="note_bien">Nb: La partie de l'Administration est sécurisée et réservée uniquement à l'Administration..!</p>
+        </div>
+    </div>
+
+    <div id="emploi_fc1">
+        <h1>Emploi du temps du FC1</h1>
+        <table>
+            <thead>
+                <td>
+                   <th>Jour</th>
+                   <th>Matiére</th>
+                   <th>heure</th>
+                   <th>Proffesseur</th>
+                   <th>Salle</th>
+                </td>
+            </thead>
+            <tbody>
+                <td>
+                    <td>Lundi</td>
+                    <td>Sécurité</td>
+                    <td>10h à 11h</td>
+                    <td>Saladine</td>
+                    <td>Salle 1</td>
+                </td>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="emploi_fc2">
+        <h1>Emploi du temps du FC2</h1>
+        <table>
+            <thead>
+                <td>
+                   <th>Jour</th>
+                   <th>Matiére</th>
+                   <th>heure</th>
+                   <th>Proffesseur</th>
+                   <th>Salle</th>
+                </td>
+            </thead>
+            <tbody>
+                <td>
+                    <td>Lundi</td>
+                    <td>Sécurité</td>
+                    <td>10h à 11h</td>
+                    <td>Saladine</td>
+                    <td>Salle 1</td>
+                </td>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="emploi_lp">
+        <h1>Emploi du temps du Lp</h1>
+        <table>
+            <thead>
+                <td>
+                   <th>Jour</th>
+                   <th>Matiére</th>
+                   <th>heure</th>
+                   <th>Proffesseur</th>
+                   <th>Salle</th>
+                </td>
+            </thead>
+            <tbody>
+                <td>
+                    <td>Lundi</td>
+                    <td>Sécurité</td>
+                    <td>10h à 11h</td>
+                    <td>Saladine</td>
+                    <td>Salle 1</td>
+                </td>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="emploi_sri1">
+        <h1>Emploi du temps du SRI1</h1>
+        <table>
+            <thead>
+                <td>
+                   <th>Jour</th>
+                   <th>Matiére</th>
+                   <th>heure</th>
+                   <th>Proffesseur</th>
+                   <th>Salle</th>
+                </td>
+            </thead>
+            <tbody>
+                <td>
+                    <td>Lundi</td>
+                    <td>Sécurité</td>
+                    <td>10h à 11h</td>
+                    <td>Saladine</td>
+                    <td>Salle 1</td>
+                </td>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="emploi_sri2">
+        <h1>Emploi du temps du SRI2</h1>
+        <table>
+            <thead>
+                <td>
+                   <th>Jour</th>
+                   <th>Matiére</th>
+                   <th>heure</th>
+                   <th>Proffesseur</th>
+                   <th>Salle</th>
+                </td>
+            </thead>
+            <tbody>
+                <td>
+                    <td>Lundi</td>
+                    <td>Sécurité</td>
+                    <td>10h à 11h</td>
+                    <td>Saladine</td>
+                    <td>Salle 1</td>
+                </td>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="note_fc1">
+        <h1>Notes des étudiants FC1</h1>
+        <table>
+            <thead>
+                <tr>
+                   <th>Nom</th>
+                   <th>Prenom</th>
+                   <th>Matiére</th>
+                   <th>Proffesseur</th>
+                   <th>Notes</th>
+                   <th>Observations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Salah</td>
+                    <td>Barkai</td>
+                    <td>Sécurité</td>
+                    <td>Saladine</td>
+                    <td>18/20</td>
+                    <td>Bon travail</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="note_fc2">
+        <h1>Notes des étudiants FC2</h1>
+        <table>
+            <thead>
+                <tr>
+                   <th>Nom</th>
+                   <th>Prenom</th>
+                   <th>Matiére</th>
+                   <th>Proffesseur</th>
+                   <th>Notes</th>
+                   <th>Observations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Salah</td>
+                    <td>Barkai</td>
+                    <td>Sécurité</td>
+                    <td>Saladine</td>
+                    <td>18/20</td>
+                    <td>Bon travail</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="note_lp">
+        <h1>Notes des étudiants Lp</h1>
+        <table>
+            <thead>
+                <tr>
+                   <th>Nom</th>
+                   <th>Prenom</th>
+                   <th>Matiére</th>
+                   <th>Proffesseur</th>
+                   <th>Notes</th>
+                   <th>Observations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Salah</td>
+                    <td>Barkai</td>
+                    <td>Sécurité</td>
+                    <td>Saladine</td>
+                    <td>18/20</td>
+                    <td>Bon travail</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  
+    <div id="note_sri1">
+        <h1>Notes des étudiants SRI1</h1>
+        <table>
+            <thead>
+                <tr>
+                   <th>Nom</th>
+                   <th>Prenom</th>
+                   <th>Matiére</th>
+                   <th>Proffesseur</th>
+                   <th>Notes</th>
+                   <th>Observations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Salah</td>
+                    <td>Barkai</td>
+                    <td>Sécurité</td>
+                    <td>Saladine</td>
+                    <td>18/20</td>
+                    <td>Bon travail</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="note_SRI2" class="note_SRI2">
+        <h1>Notes des étudiants SRI2</h1>
+        <table>
+            <thead>
+                <tr>
+                   <th>Nom</th>
+                   <th>Prenom</th>
+                   <th>Matiére</th>
+                   <th>Proffesseur</th>
+                   <th>Notes</th>
+                   <th>Observations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Salah</td>
+                    <td>Barkai</td>
+                    <td>Sécurité</td>
+                    <td>Saladine</td>
+                    <td>18/20</td>
+                    <td>Bon travail</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  
+  <div id="envoyer_message">
+    <form action="/receive_email" method="post">
+        <h1>Envoyer un e-mail</h1>
+        <label for="subject">Sujet :</label>
+        <input type="text" id="subject" name="subject" required><br>
+
+        <label for="sender">Expé :</label>
+        <input type="email" id="sender" name="sender" required><br>
+
+        <label for="body">Corps :</label><br>
+        <textarea id="body" name="body" required></textarea><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+  </div>
+
+  
+  
+  
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyD4bkxqZTSjfx_GYkujMCxr11rg9Gotb1o",
+          authDomain: "e-image-web-app.firebaseapp.com",
+          projectId: "e-image-web-app",
+          storageBucket: "e-image-web-app.appspot.com",
+          messagingSenderId: "161418030391",
+          appId: "1:161418030391:web:dfc556f3c7cbdd8d897eb2",
+          measurementId: "G-3B17HRZ8NN"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>

@@ -1,0 +1,812 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+    }
+
+#contenaire-formulaire{
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    border:  1px solid blue;
+    box-shadow: 10px 10px 10px 5px whitesmoke;
+    margin-left:30% ;
+
+}
+#formulaire h1{
+    margin:15px;
+    font-size: 25px;
+    color: blue;
+}
+
+#formulaire input{
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid blue;
+    font-size: 15px;
+    background-color: whitesmoke;
+    color: black;
+    width: 350px;
+}
+
+#btn_connection{
+    padding: 10px;
+    margin: 15px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#btn_connection:hover{
+    background-color: brown;
+    color: white;
+    margin: 5px;
+    border: 1px solid blue;
+}
+
+#btn_inscription{
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 15px;
+}
+
+#btn_inscription:hover{
+    color: blue;
+    margin: 2px;
+}
+
+#inscription{
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+
+
+#form_inscription{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    border:  1px solid blue;
+    box-shadow: 10px 10px 10px 5px whitesmoke;
+    margin-left:30% ;
+}
+
+#form_inscription h1{
+    margin:15px;
+    font-size: 25px;
+    color: blue;
+}
+
+#form_inscription input{
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid blue;
+    font-size: 15px;
+    background-color: whitesmoke;
+    color: black;
+    width: 350px;
+}
+
+#inscrire{
+    padding: 10px;
+    margin: 15px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#inscrire:hover{
+    background-color: brown;
+    color: white;
+    margin: 5px;
+    border: 1px solid blue;
+}
+
+#dashbord{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    display: none;
+    justify-content: center;
+    flex: auto;
+}
+
+#menu{
+    background-color: blue;
+    margin: 0px;
+    padding: 10px;
+    float: rigth;
+    display: flex;
+    width: 150px;
+    height: 600px;
+    top: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    align-items: center;
+    margin: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.menu ul li button{
+    align-items: center;
+    border-style: none;
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    text-align: center;
+    margin: 6px;
+}
+
+.menu ul li button:hover{
+    background-color: white;
+    border-radius: 10px skyblue;
+    color: black;
+}
+.menu ul li ion-icon{
+    
+    font-size: 20px;
+    color: white;
+    
+}
+
+#main{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#main h1{
+    margin-top: -600px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main div{
+    margin-top: -400px;
+    border: 1px solid blue;
+    width: 270px;
+    height: 300px;
+    margin: 35px;
+    background-color: skyblue;
+    display: inline-block;
+   border-radius: 10px;
+   align-items: center;
+   text-align: center;
+   cursor: pointer;
+    
+}
+
+#main div ion-icon{
+    text-align: center;
+    align-items: center;
+    margin-top: 105px;
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+    
+}
+
+#main div:hover{
+    border: 1px solid orangered;
+    background-color: blue;
+    padding: 5px;
+}
+
+#main .notebien{
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+    background-color: skyblue;
+    color: black;
+    font-size: 25px;
+    height: 70px;
+}
+#main button{
+    padding: 5px;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    margin: 70px;
+}
+
+#main button:hover{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#main .notebien:hover{
+    border: 1px solid orangered;
+    background-color: white;
+}
+
+.emploi_dashbord{
+    display: none;
+    margin-top: -600px;
+
+}
+.emploi_dashbord h1{
+    margin: 25px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.emploi_dashbord div{
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid blue;
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+    align-items: center;
+    margin-left: 5%;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.emploi_dashbord div:hover{
+    border: 1px solid orangered;
+    background-color: blue;
+    padding: 5px;
+}
+
+.emploi_dashbord div button{
+    background-color: transparent;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    border-style: none;
+}
+
+.emploi_dashbord  .notebien{
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+    background-color: skyblue;
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.emploi_dashbord .notebien:hover{
+    border: 1px solid orangered;
+    background-color: white;
+}
+
+
+.note_dashbord{
+    display: none;
+    margin-top: -600px;
+
+}
+.note_dashbord h1{
+    margin: 25px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.note_dashbord div{
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid blue;
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+    align-items: center;
+    margin-left: 5%;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.note_dashbord div:hover{
+    border: 1px solid orangered;
+    background-color: blue;
+    padding: 5px;
+}
+
+.note_dashbord div button{
+    background-color: transparent;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    border-style: none;
+}
+
+.note_dashbord  .notebien{
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+    background-color: skyblue;
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.note_dashbord .notebien:hover{
+    border: 1px solid orangered;
+    background-color: white;
+}
+
+#emploi_fc1{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#emploi_fc1 h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#emploi_fc1 table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#emploi_fc1 table, th, td {
+    border: 1px solid #ccc;
+}
+
+#emploi_fc1 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#emploi_fc1 thead {
+    background-color: #f2f2f2;
+}
+
+#emploi_lp{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#emploi_lp h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#emploi_lp table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#emploi_lp table, th, td {
+    border: 1px solid #ccc;
+}
+
+#emploi_lp th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#emploi_lp thead {
+    background-color: #f2f2f2;
+}
+
+#emploi_fc2{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#emploi_fc2 h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#emploi_fc2 table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#emploi_fc2 table, th, td {
+    border: 1px solid #ccc;
+}
+
+#emploi_fc2 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#emploi_fc2 thead {
+    background-color: #f2f2f2;
+}
+
+#emploi_sri1{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#emploi_sri1 h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#emploi_sri1 table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#emploi_sri1 table, th, td {
+    border: 1px solid #ccc;
+}
+
+#emploi_sri1 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#emploi_sri1 thead {
+    background-color: #f2f2f2;
+}
+
+#emploi_sri2{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#emploi_sri2 h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#emploi_sri2 table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#emploi_sri2 table, th, td {
+    border: 1px solid #ccc;
+}
+
+#emploi_sri2 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#emploi_sri2 thead {
+    background-color: #f2f2f2;
+}
+
+
+
+#note_fc1{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#note_fc1 h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#note_fc1 table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#note_fc1 table, th, td {
+    border: 1px solid #ccc;
+}
+
+#note_fc1 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#note_fc1 thead {
+    background-color: #f2f2f2;
+}
+
+
+#note_fc2{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#note_fc2 h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#note_fc2 table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#note_fc2 table, th, td {
+    border: 1px solid #ccc;
+}
+
+#note_fc2 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#note_fc2 thead {
+    background-color: #f2f2f2;
+}
+
+
+#note_lp{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#note_lp h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#note_lp table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#note_lp table, th, td {
+    border: 1px solid #ccc;
+}
+
+#note_lp th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#note_lp thead {
+    background-color: #f2f2f2;
+}
+
+
+#note_sri1{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#note_sri1 h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#note_sri1 table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#note_sri1 table, th, td {
+    border: 1px solid #ccc;
+}
+
+#note_sri1 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#note_sri1 thead {
+    background-color: #f2f2f2;
+}
+
+#note_SRI2{
+    display: none;
+    margin-top: -600px;
+}
+
+
+#note_SRI2 h1{
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    
+}
+
+#note_SRI2 table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 230px;
+   
+    
+}
+
+#note_SRI2 table, th, td {
+    border: 1px solid #ccc;
+}
+
+#note_SRI2 th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#note_SRI2 thead {
+    background-color: #f2f2f2;
+}
+
+#envoyer_message{
+    margin-top: -600px;
+    display: none;
+}
+#envoyer_message h1{
+margin: 20px;
+font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#envoyer_message form{
+   padding: 10px;
+   width: 500px;
+   height: 550px;
+   border: 1px solid blue;
+   border-radius: 10px;
+   margin: 5px;
+   margin-left: 30%;
+}
+
+#envoyer_message form input{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#envoyer_message form textarea{
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+    height: 100px;
+}
+
+#envoyer_message form label{
+    display: inline-block;
+    margin: 15px;
+}
+
+#envoyer_message form button{
+    padding: 5px;
+    margin: 20px;
+    width: 150px;
+    border: 1px solid white;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#envoyer_message form button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Ajoutez vos styles spécifiques aux petits écrans ici */
+    body {
+        font-size: 16px; /* Exemple de taille de police pour les petits écrans */
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    /* Ajoutez vos styles spécifiques aux grands écrans ici */
+    body {
+        font-size: 18px; /* Exemple de taille de police pour les grands écrans */
+    }
+}
